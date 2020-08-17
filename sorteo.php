@@ -17,57 +17,62 @@
                        
             </header>
     <!--***************** fin del Encabezado ( titulo )**********************************************-->
-    <!--***************** caja del valor acomulado **********************************************-->
-
-            <article id="boxacomulado"> 
-            <h3>acomulado</h3>
-        <center>    <div class="resultado">  <h3 name="resultado"></h3>
-      
-
-        </div></center>
-        </article>
-     <!--***************** caja del valor acomulado **********************************************-->
-     <!--************************      MENU     ************************************************-->
-     <nav>
+         <!--************************      MENU     ************************************************-->
+         <nav>
         <center><ul>
                  <a href="ganadores.html"><li class="btn btn-warning" id="boton">Ganadores</li></a>   
                  <a href="participantes.html"> <li class="btn btn-warning" id="boton">participantes</li></a>
-                    
+                 <a href="politicas.html"> <li class="btn btn-warning" id="boton">politicas del juego</li></a>   
                 </ul></center>
      </nav>
      <!--************************   fin  del MENU  ***********************************************-->
-     <!--*********************    descrippcion del juego  *****************************************-->
-            
-            <article>
-                <h3> El suertudo</h3>
-                <h3>0.</h3>
-                <h3 class="p">
-                    El suertudo es un juego de suerte donde los jugadores tendran que comprar un tiquet, el cual el programa arrojara una serie de numeros 
-                    aleatorios con el cual podran ganar la cifra acomulada durante los 5 dias. 
-                    <br>
-                    <h3>1.</h3>
-                    <h3 class="p"> en caso de que ningunos de los participantes gane la 
-                    cifra, quedara acomulada para el proximo sorteo.</h3>
-                   
-                    <h3>2.</h3><h3 class="p"> En caso de haber jugadores con el mismo numero ganador la cifra se rapartira en partes iguales</h3>
-                </h3>
-        </article>
-        <article>
-            <h3>ganadores</h3>
-            <h3 class="p">Los ganadores recibiran el 80% del monto acomulado durante los 5 dias
-                <br>
-                el dinero podra ser retirado en el lugar donde se compro el tiquet.
-            </h3>
-        </article>
-     <!--*********************fin descrippcion del juego  *****************************************-->
+    <!--***************** caja del valor acomulado **********************************************--> 
+    <img id="imagenuno" src="img/slider.jpg" alt="">
+    <div> 
+        <div id="cajauno">  
+<h3>acomulado</h3>
+<div id="acomulado"><center><h3 class="p"> 000 </h3> </center></div> 
+        </div>
+<hr>
+<!--***************** **** loteria  ******************************************-->  
+        <div id="cajauno"> 
+        <h3>Juega con </h3> 
+    <div id="acomulado"><center> <h3 class="p">loteria </h3></center></div>
+        </div>
+<!--***************** **** loteria  ******************************************-->  
+
+</div>     
+     <!--***************** fin caja del valor acomulado **********************************************-->
+        
+     
         
  <!--******************************social***************************************-->
            
-        <a href="#"><button type="button" class="btn btn-primary">Facebook</button></a>
+        
            
+             <!--***************** Pie de pagina **********************************************-->  
 
+             <footer>
+                                 <center><h1>  El suertudo </h1></center>     
+                                <center> <h3>Contacto</h3></center>
+                                <h3 class="p"> +57 3197108904 
+                                    <br>
+                                    cg082490@gmail.com
+                                </h3>
+             </footer>
+              <!--***************** fin de pagina **********************************************-->
 
-       
+   <!--*****************************************************  style*********************************************-->
+                                        <style>
+                                        #imagenuno{
+                                            width: 100%;
+                                            height:200px;
+                                        }
+                                        #acomulado 
+ 
+                                        </style>
+    <!--*****************************************************  style *********************************************-->
+ 
             
     <!--*****************************************************  Script  *********************************************-->
     
