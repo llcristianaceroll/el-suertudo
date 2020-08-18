@@ -22,33 +22,41 @@
 
                             
                             
-                            <div class="registro">
-                            
-                                   <form method="_POST" action="prueva.php" > <!--******inicio del formulario*******-->
+                         <div class="registro">   
+                            <form method="_POST" action="prueva.php" > <!--******inicio del formulario*******-->
                                 <div class="datos">
                                             <label>Nombre</label>
                                         <input type="text" required="required" name="nombre">
                                 </div>
-                            <div class="datos">
+                                <div class="datos">
                                         <label>apellido</label>
                                         <input type="text" required="required" name="apellido">
                                 </div>
-                            <div class="datos">
+                                <div class="datos">
                                         <label>Telefono</label>
-                                        <input type="text" required="required" name="telefono">
+                                        <input type="number" required="required" name="telefono">
                                 </div>
-                                <form method="_POST" action="tiquet.php" >
+                            <div class="datos">
+                                        <label>Documento</label>
+                                        <input type="number" required="required" name="documento">
+                                </div>
+                            
                             <div class="datos">
                                         <label >numero</label>
                                         <input type="number" name="numero" />
+                                </div>
+                                <div class="datos">
+                                        <label >Referido por</label>
+                                        <input type="tex" name="referido" />
+                                </div>
                                 <!--******inicio del boton*******-->
                             <div class="datos">
+
                                     <input type="submit"  id="" class="btn btn-outline-success" name="registrarse" >
-                                </div>
-                                <!--******fin del boton*******-->
-                                </form> <!--******fin  del formulario*******-->
-                               
-                          </div>
+                            </div>
+                                <!--******fin del boton****--> 
+                         </form>
+                   </div>
                  <!--***************** Fin del  Formulario De Participantes  **********************************************-->
 
     
