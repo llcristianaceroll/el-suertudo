@@ -99,13 +99,13 @@ article{
 /********  articulo ****************************************************************************************/
 /********  formulario de  registro ****************************************************************************************/
 .registro{
-    border:1px solid rgb(28, 66, 172);
+   
     min-width: 100%;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-   
+   margin-bottom:15px ;
 }
 .registro input{
     display: flex;
