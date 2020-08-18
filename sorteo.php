@@ -56,7 +56,7 @@
              <!--***************** Pie de pagina **********************************************-->  
 
              <footer>
-                                 <center> <h3> <span>l</span>El Suertudo<span>l</span></h3></center>     
+                                 <center> <h3> <span>l</span>Luky Wolf<span>l</span></h3></center>     
                                 <center> <h3>Contacto</h3></center>
                                 <h3 class="p"> +57 3197108904 
                                     <br>
