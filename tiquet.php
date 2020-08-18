@@ -12,17 +12,18 @@
     <div class="container"><!--  caja contenedora -->
     <div class="main-bg"></div>
             <!--*****************Encabezado ( titulo )**********************************************-->
-                            <header class="titulo">
-                                    <h1> <div class="spam"> l  f q k o </div> El suertudo <div class="spam"> m n a f  l </div> </h1>
-                                    
-                            </header>
+            <header class="titulo">
+            <section>
+                <img  src="img/logoheade.jpg" alt="">
+         </section>            
+                </header>
              <!--*****************Encabezado ( titulo )**********************************************-->
              <!--***************** Formulario De Participantes  **********************************************-->
 
-                            <h3>llenar formulario completo</h3>
+                            
                             
                             <div class="registro">
-
+                            
                                    <form method="_POST" action="prueva.php" > <!--******inicio del formulario*******-->
                                 <div class="datos">
                                             <label>Nombre</label>
