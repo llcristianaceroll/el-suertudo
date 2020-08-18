@@ -16,7 +16,7 @@
                 <!--***************** Encabezado ( titulo ) **********************************************-->
 
 <header class="titulo">
-<a href="sorteo.php">    <img  src="img/logoheade.jpg" alt="">  </a>
+   <img  src="img/logoheade.jpg" alt="">  
                        
             </header>
                 <!--***************** Fin de Encabezado ( titulo ) **********************************************-->
