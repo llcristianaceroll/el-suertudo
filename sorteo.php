@@ -11,37 +11,40 @@
 </head>
 <body>
     <!--*****************Encabezado ( titulo )**********************************************-->
-    <div class="container">
-            <header class="titulo">
-                    <h1> <div class="spam"> l  f q k o </div> El suertudo <div class="spam"> m n a f  l </div> </h1>
-                       
-            </header>
-    <!--***************** fin del Encabezado ( titulo )**********************************************-->
-         <!--************************      MENU     ************************************************-->
-         <nav>
+<div class="container">
+        <header class="titulo">
+        <section>
+            <img  src="img/logoheade.jpg" alt="">
+  <!--************************      MENU     ************************************************-->
+  <nav>
         <center><ul>
                  <a href="ganadores.html"><li class="btn btn-warning" id="boton">Ganadores</li></a>   
                  <a href="participantes.html"> <li class="btn btn-warning" id="boton">participantes</li></a>
                  <a href="politicas.html"> <li class="btn btn-warning" id="boton">politicas del juego</li></a>   
                 </ul></center>
      </nav>
+     </section>            
+            </header>
+    <!--***************** fin del Encabezado ( titulo )**********************************************-->
+       
+ <section>
+        
+                    <div id="cajauno">  
+            <h3>acomulado</h3>
+            <div id="acomulado"><center><h3 class="p"> 000 </h3> </center></div> 
+                    </div>
+            <hr>
+                    <div id="cajauno"> 
+                <h3>Juega con </h3> 
+                <div id="acomulado"><center> <h3 class="p">loteria </h3></center></div>
+                    </div>
+            <!--***************** **** loteria  ******************************************-->  
+          
+</section>  
      <!--************************   fin  del MENU  ***********************************************-->
     <!--***************** caja del valor acomulado **********************************************--> 
-    <img id="imagenuno" src="img/slider.jpg" alt="">
-    <div> 
-        <div id="cajauno">  
-<h3>acomulado</h3>
-<div id="acomulado"><center><h3 class="p"> 000 </h3> </center></div> 
-        </div>
-<hr>
-<!--***************** **** loteria  ******************************************-->  
-        <div id="cajauno"> 
-        <h3>Juega con </h3> 
-    <div id="acomulado"><center> <h3 class="p">loteria </h3></center></div>
-        </div>
-<!--***************** **** loteria  ******************************************-->  
-
-</div>     
+    
+ 
      <!--***************** fin caja del valor acomulado **********************************************-->
         
      
@@ -53,7 +56,7 @@
              <!--***************** Pie de pagina **********************************************-->  
 
              <footer>
-                                 <center><h1>  El suertudo </h1></center>     
+                                 <center> <h3> <span>l</span>El Suertudo<span>l</span></h3></center>     
                                 <center> <h3>Contacto</h3></center>
                                 <h3 class="p"> +57 3197108904 
                                     <br>
@@ -65,11 +68,15 @@
    <!--*****************************************************  style*********************************************-->
                                         <style>
                                         #imagenuno{
+                                            
                                             width: 100%;
-                                            height:200px;
+                                            height:auto;
                                         }
                                         #acomulado 
- 
+                                        .titulo img{ 
+                                                width: 400px;
+                                                height: auto;
+                                                }
                                         </style>
     <!--*****************************************************  style *********************************************-->
  
