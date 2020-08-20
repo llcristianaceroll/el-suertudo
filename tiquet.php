@@ -20,10 +20,8 @@
              <!--*****************Encabezado ( titulo )**********************************************-->
              <!--***************** Formulario De Participantes  **********************************************-->
 
-                            
-                            
                          <div class="registro">   
-                            <form method="_POST" action="prueva.php" > <!--******inicio del formulario*******-->
+                            <form method="post" action="prueva.php" > <!--******inicio del formulario*******-->
                                 <div class="datos">
                                             <label>Nombre</label>
                                         <input type="text" required="required" name="nombre">
@@ -43,11 +41,11 @@
                             
                             <div class="datos">
                                         <label >numero</label>
-                                        <input type="number" name="numero" />
+                                        <input type="number" required="required" name="numero" />
                                 </div>
                                 <div class="datos">
                                         <label >Referido por</label>
-                                        <input type="tex" name="referido" />
+                                        <input type="number" required="required" name="referido" />
                                 </div>
                                 <!--******inicio del boton*******-->
                             <div class="datos">
