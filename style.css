@@ -1,26 +1,31 @@
-*{
+
+* {
     margin: 0;
-    
     padding: 0;
 }
- /***************************************** fuentes  *****************************************/
-@font-face{
+
+/***************************************** fuentes  *****************************************/
+
+@font-face {
     font-family: 'fuente2';
     src: url(font/alice_in_wonderland/Alice_in_Wonderland_3.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: 'mifuente';
     src: url(font/national_cartoon/National\ Cartoon.ttf);
 }
-@font-face{
+
+@font-face {
     font-family: 'joker';
     src: url(font/casino/Casino.ttf);
 }
+
 /*********** fin fuentes  *****************************************************************/
+
 /************ caja contenedora  *************************************************************/
-.container{
-    
+
+.container {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -29,46 +34,59 @@
     max-width: 100%;
     height: auto;
 }
+
 /************ caja contenedora  ***********************************************************************/
+
 /***********  encabezado  *******************************************************************************/
-span{
+
+span {
     font-family: 'joker';
     color: rgb(16, 163, 28);
 }
-.titulo{
+
+.titulo {
     padding-top: 5px;
     margin-bottom: 5px;
     background: rgb(0, 0, 0);
 }
-.titulo img{ 
+
+.titulo img {
     width: 320px;
     vertical-align: middle;
     border-style: none;
 }
+
 /***********  encabezado  *********************************************************/
+
 /********  nav  *******************************************************************/
-nav ul li{
+
+nav ul li {
     font-family: 'fuente2';
     border: 1px solid yellow;
     padding: 5px;
     list-style: none;
     display: inline-block;
 }
+
 /********  nav  ****************************************************************************************/
-#cajauno{
+
+#cajauno {
     display: flex;
-    margin:2px ;
+    margin: 2px;
     text-align: center;
     width: 100%;
 }
+
 #acomulado {
     margin-left: 5px;
     width: 230px;
     border: 1px solid rgb(26, 48, 145);
-}   
+}
 
 /********  caja del acomulado  ****************************************************************************************/
-.resultado{  max-width: 100%;
+
+.resultado {
+    max-width: 100%;
     width: 200px;
     height: 80px;
     max-width: 100%;
@@ -77,14 +95,18 @@ nav ul li{
     border-radius: 20px;
     padding: 5px;
     text-align: center;
-    border: 1px solid yellow ; 
+    border: 1px solid yellow;
 }
+
 /********  caja del acomulado  ****************************************************************************************/
+
 /********  seccion de imagen  ****************************************************************************************/
 
 /********  seccion de imagen  ****************************************************************************************/
+
 /********  articulo ****************************************************************************************/
-article{
+
+article {
     border-radius: 5px;
     min-width: 90%;
     width: 500px;
@@ -94,92 +116,105 @@ article{
     flex-wrap: wrap;
     /*border:1px solid red;*/
     margin: 20px;
-    padding: 10px;  
+    padding: 10px;
 }
+
 /********  articulo ****************************************************************************************/
+
 /********  formulario de  registro ****************************************************************************************/
-.registro{
-   
+
+.registro {
     min-width: 100%;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-   margin-bottom:15px ;
+    margin-bottom: 15px;
 }
-.registro input{
+
+.registro input {
     display: flex;
     margin: 5px;
     flex-direction: row;
 }
-.datos{
-    
-    margin: 10px;
 
+.datos {
+    margin: 10px;
     padding: 5px;
     display: flex;
     flex-direction: row;
     text-align: center;
 }
-label{
+
+label {
     font-family: 'fuente2';
     font-size: 30px;
     color: rgb(224, 0, 0);
 }
-.btn1{
+
+.btn1 {
     padding: 5px;
     font-size: 15px;
     border-radius: 5px;
     color: red;
 }
-input{
+
+input {
     background-color: rgb(0, 0, 0);
-    
     color: white;
     width: 100%;
     height: auto;
 }
+
 /********  formulario de  registro ****************************************************************************************/
-nav{
+
+nav {
     position: fixed;
     top: 10px;
 }
-nav ul li{
+
+nav ul li {
     font-family: 'fuente2';
     border: 1px solid yellow;
     padding: 10px;
     list-style: none;
     display: inline-block;
 }
-footer{
+
+footer {
     background: black;
-    border:1px solid rgb(4, 24, 112);
+    border: 1px solid rgb(4, 24, 112);
     padding-top: 25px;
     margin-top: 12px;
     width: 100%;
     height: 200px;
 }
-.btn5{
+
+.btn5 {
     margin-left: 10px;
 }
+
 /************ tipografias  *************************************************************************************/
-h3{ font-size: 40px;
+
+h3 {
+    font-size: 40px;
     font-family: 'fuente2';
     color: rgb(176, 247, 10);
     text-align: center;
 }
-.p{
+
+.p {
     font-family: 'fuente2';
     color: white;
 }
-p{
+
+p {
     color: white;
 }
 
-.contact{
+.contact {
     font-family: 'mifuente';
     color: rgb(255, 9, 9);
 }
-
 
 /************ tipografias  *************************************************************************************/
